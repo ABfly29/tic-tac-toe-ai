@@ -79,11 +79,10 @@ The AI uses a Q-learning algorithm to play smart moves, allowing users to challe
 
 ---
 
-##Frontend Design Screenshot
+## Frontend Design Screenshot
 
 ![image](https://github.com/user-attachments/assets/3cea8748-b487-4cb2-9c50-b620cf2f1fb6)
 
-- **Git / GitHub**
 
 ---
 
