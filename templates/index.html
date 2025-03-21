@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe - AI First</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <div class="turn" id="turn">O's Turn (AI)</div>
+  <button class="btn" onclick="resetGame()">Restart</button>
+
+  <div class="board" id="board"></div>
+
+  <div class="score">
+    <div class="score-box">X (YOU)<br><span id="xScore">0</span></div>
+    <div class="score-box">TIES<br><span id="tieScore">0</span></div>
+    <div class="score-box">O (CPU)<br><span id="oScore">0</span></div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
